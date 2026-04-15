@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" fill="none">
+  <rect width="200" height="240" rx="16" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+  <!-- Avatar circle -->
+  <circle cx="100" cy="85" r="52" fill="url(#t01g)"/>
+  <text x="100" y="98" font-family="Roboto,sans-serif" font-size="32" font-weight="900" fill="white" text-anchor="middle">CR</text>
+  <!-- Info -->
+  <text x="100" y="160" font-family="Roboto,sans-serif" font-size="15" font-weight="800" fill="#1e293b" text-anchor="middle">Carlos Rodríguez</text>
+  <rect x="60" y="170" width="80" height="22" rx="11" fill="url(#t01g)"/>
+  <text x="100" y="185" font-family="Roboto,sans-serif" font-size="10" font-weight="700" fill="white" text-anchor="middle">CEO & Fundador</text>
+  <!-- Social line -->
+  <rect x="30" y="208" width="140" height="1" fill="#e2e8f0"/>
+  <text x="100" y="228" font-family="Roboto,sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Uctured · España</text>
+  <defs>
+    <linearGradient id="t01g" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4f46e5"/><stop offset="1" stop-color="#4f46e5cc"/>
+    </linearGradient>
+  </defs>
+</svg>
