@@ -20,54 +20,68 @@
 <!-- ═══════════════════════════════════════════════
      HEADER
 ════════════════════════════════════════════════ -->
-<section class="hero hero--light" aria-label="Inicio">
-  <div class="hero__deco hero__deco--1"></div>
-  <div class="hero__deco hero__deco--2"></div>
-  <div class="container" style="width:100%;">
-    <div class="hero__content">
-      <div class="hero__badge">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        Más de 150 proyectos entregados
+<section class="hero hero--dark hero--centered" aria-label="Inicio">
+  <!-- Glows de fondo -->
+  <div class="hero__glow hero__glow--1"></div>
+  <div class="hero__glow hero__glow--2"></div>
+  <div class="hero__glow hero__glow--3"></div>
+
+  <div class="container hero__center">
+
+    <!-- Badge -->
+    <div class="hero__badge" style="animation-delay:0s;">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      +150 proyectos entregados en España
+    </div>
+
+    <!-- Título -->
+    <h1 class="display-xl hero__title" style="animation-delay:.1s;">
+      La web que tu negocio<br>
+      <span class="text-gradient-light">necesita para crecer</span>
+    </h1>
+
+    <!-- Subtítulo -->
+    <p class="hero__subtitle" style="animation-delay:.2s;">
+      Diseño web profesional en WordPress desde <strong style="color:white;">299 €</strong>.<br>
+      Personalizado, con SEO incluido y entregado en 15 días.
+    </p>
+
+    <!-- Botones -->
+    <div class="hero__actions hero__actions--centered" style="animation-delay:.3s;">
+      <a href="pages/contacto.html" class="btn btn--primary btn--lg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Solicitar Presupuesto Gratis
+      </a>
+      <a href="#servicios" class="btn btn--outline-white btn--lg">
+        Ver Servicios
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </a>
+    </div>
+
+    <!-- Stats en línea -->
+    <div class="hero__stats" style="animation-delay:.4s;">
+      <div class="hero__stat">
+        <span class="hero__stat-num">+150</span>
+        <span class="hero__stat-label">webs entregadas</span>
       </div>
-      <h1 class="display-xl hero__title">
-        Diseñamos la web que<br>
-        <em class="text-gradient" style="font-style:italic;">tu negocio necesita</em><br>
-        para crecer.
-      </h1>
-      <p class="hero__subtitle">Webs profesionales en WordPress desde <strong>299 €</strong>. Diseño personalizado, SEO incluido y entrega en 15 días. Sin permanencias ni letra pequeña.</p>
-      <div class="hero__actions">
-        <a href="pages/contacto.html" class="btn btn--primary btn--lg">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          Solicitar Presupuesto Gratis
-        </a>
-        <a href="#servicios" class="btn btn--secondary btn--lg">
-          Ver Nuestros Servicios
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-        </a>
+      <div class="hero__stat-sep"></div>
+      <div class="hero__stat">
+        <span class="hero__stat-num">98%</span>
+        <span class="hero__stat-label">clientes satisfechos</span>
+      </div>
+      <div class="hero__stat-sep"></div>
+      <div class="hero__stat">
+        <span class="hero__stat-num">15 días</span>
+        <span class="hero__stat-label">de entrega media</span>
+      </div>
+      <div class="hero__stat-sep"></div>
+      <div class="hero__stat">
+        <span class="hero__stat-num">desde 299€</span>
+        <span class="hero__stat-label">sin permanencias</span>
       </div>
     </div>
 
-    <!-- Hero Visual / Browser Mockup -->
-    <div class="hero__visual" style="position:relative;max-width:860px;margin:3rem auto 0;">
-      <!-- Float badges -->
-      <div class="float-badge float-badge--1">
-        <div class="float-badge__dot"></div>
-        <span>Entrega en 15 días</span>
-      </div>
-      <div class="float-badge float-badge--2">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        <span>98% clientes satisfechos</span>
-      </div>
-      <!-- Hero mockup image -->
-      <img
-        src="img/hero/hero-mockup.svg"
-        alt="Ejemplo de web profesional diseñada por Uctured"
-        class="hero__mockup"
-        width="900"
-        height="520"
-        loading="eager"
-      />
-    </div>
+
   </div>
 </section>
 
@@ -116,44 +130,20 @@
     </div>
 
     <div class="bento-grid">
-      <!-- Diseño Web — grande -->
+      <!-- Diseño Web -->
       <div class="bento-card bento-card--col-8 reveal">
         <div class="bento-card__tag">Más solicitado</div>
-        <div style="display:flex;align-items:flex-start;gap:1.5rem;flex-wrap:wrap;">
-          <div style="flex:1;min-width:220px;">
-            <div class="bento-card__icon bento-card__icon--lg">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-            </div>
-            <div class="bento-card__title">Diseño Web Profesional</div>
-            <p class="bento-card__desc">Webs en WordPress diseñadas a medida para tu negocio. Responsive, rápidas y con SEO incluido desde el primer día. Plan Lite desde 5 páginas y Plan Pro para proyectos más ambiciosos.</p>
-            <div class="bento-card__price">desde 299 €</div>
-            <div class="bento-card__price-label">pago único · sin permanencias</div>
-            <a href="pages/disenyo-web-lite.html" class="bento-card__link">
-              Ver planes
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-            </a>
-          </div>
-          <div style="flex:1;min-width:200px;background:var(--bg-light);border-radius:var(--radius-lg);padding:1.5rem;">
-            <div style="font-size:0.78rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.75rem;">Incluye</div>
-            <div style="display:flex;flex-direction:column;gap:0.5rem;">
-              <div style="display:flex;align-items:center;gap:0.5rem;font-size:0.85rem;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Diseño responsive
-              </div>
-              <div style="display:flex;align-items:center;gap:0.5rem;font-size:0.85rem;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>SEO básico on-page
-              </div>
-              <div style="display:flex;align-items:center;gap:0.5rem;font-size:0.85rem;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Hosting + dominio 1 año
-              </div>
-              <div style="display:flex;align-items:center;gap:0.5rem;font-size:0.85rem;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Formulario de contacto
-              </div>
-              <div style="display:flex;align-items:center;gap:0.5rem;font-size:0.85rem;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Entrega en 10-15 días
-              </div>
-            </div>
-          </div>
+        <div class="bento-card__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
         </div>
+        <div class="bento-card__title">Diseño Web Profesional</div>
+        <p class="bento-card__desc">Webs en WordPress a medida. Responsive, rápidas y con SEO incluido. Plan Lite desde 5 páginas y Plan Pro para proyectos más ambiciosos.</p>
+        <div class="bento-card__price">desde 299 €</div>
+        <div class="bento-card__price-label">pago único · sin permanencias</div>
+        <a href="pages/disenyo-web-lite.html" class="bento-card__link">
+          Ver planes
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
       </div>
 
       <!-- Tienda Online -->
@@ -189,7 +179,7 @@
         </div>
         <div class="bento-card__title">Desarrollo a Medida</div>
         <p class="bento-card__desc">Aplicaciones web, plataformas SaaS e intranets con React, Next.js y Node.js para proyectos únicos.</p>
-        <a href="pages/desarrollo-medida.html" class="bento-card__link">
+        <a href="pages/contacto.html" class="bento-card__link">
           Saber más
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
@@ -202,7 +192,7 @@
         </div>
         <div class="bento-card__title">Hosting y Dominio</div>
         <p class="bento-card__desc">Servidores rápidos, SSL incluido y soporte técnico especializado.</p>
-        <a href="pages/hosting-dominio.html" class="bento-card__link">
+        <a href="pages/contacto.html" class="bento-card__link">
           Ver planes
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
@@ -215,7 +205,7 @@
         </div>
         <div class="bento-card__title">Diseño Gráfico</div>
         <p class="bento-card__desc">Logos, identidad visual, cartelería y todo lo que tu marca necesita para destacar.</p>
-        <a href="pages/disenyo-grafico.html" class="bento-card__link">
+        <a href="pages/contacto.html" class="bento-card__link">
           Ver servicios
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
@@ -237,8 +227,8 @@
               <div style="font-size:0.75rem;color:var(--text-secondary);">más tráfico orgánico</div>
             </div>
             <div style="background:white;border-radius:var(--radius);padding:0.75rem;text-align:center;box-shadow:var(--shadow-sm);">
-              <div style="font-family:'Roboto',sans-serif;font-weight:800;font-size:1.5rem;color:var(--primary);">Top 10</div>
-              <div style="font-size:0.75rem;color:var(--text-secondary);">Google en 90 días</div>
+              <div style="font-family:'Roboto',sans-serif;font-weight:800;font-size:1.5rem;color:var(--primary);">SEO</div>
+              <div style="font-size:0.75rem;color:var(--text-secondary);">optimización incluida</div>
             </div>
           </div>
         </div>
@@ -297,8 +287,8 @@
         <div class="feature-card__icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
         </div>
-        <h3 class="feature-card__title">Garantía de 60 días</h3>
-        <p class="feature-card__desc">Si algo no funciona como acordamos en los 60 días posteriores al lanzamiento, lo corregimos sin coste adicional.</p>
+        <h3 class="feature-card__title">Garantía de satisfacción y post-lanzamiento</h3>
+        <p class="feature-card__desc">Si el resultado final no te convence antes del lanzamiento, te devolvemos el dinero. Y si en los 20 días siguientes algo falla, lo arreglamos sin coste.</p>
       </div>
     </div>
   </div>

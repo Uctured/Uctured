@@ -117,7 +117,7 @@ function renderNavbar() {
         </div>
       </li>
       <li><a href="${root}pages/empresa.html">Empresa</a></li>
-      <li><a href="${root}pages/partners.html">Partners</a></li>
+      <li><a href="${root}pages/garantia.html">Garantía</a></li>
       <li><a href="${root}pages/contacto.html">Contacto</a></li>
     </ul>
     </div>
@@ -162,7 +162,7 @@ function renderNavbar() {
       </div>
     </div>
     <a href="${root}pages/empresa.html">Empresa</a>
-    <a href="${root}pages/partners.html">Partners</a>
+    <a href="${root}pages/garantia.html">Garantía</a>
     <a href="${root}pages/contacto.html">Contacto</a>
   </nav>
   <div class="navbar__mobile-actions">
@@ -232,7 +232,6 @@ function renderFooter() {
         <ul class="footer__links">
           <li><a href="${root}pages/empresa.html">Quiénes somos</a></li>
           <li><a href="${root}pages/nuestro-recorrido.html">Nuestro Recorrido</a></li>
-          <li><a href="${root}pages/partners.html">Partners</a></li>
           <li><a href="https://clientes.uctured.com/" target="_blank" rel="noopener">Área de Clientes</a></li>
           <li><a href="${root}pages/contacto.html">Contacto</a></li>
         </ul>
