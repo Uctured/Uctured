@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 60" fill="none">
+  <rect width="180" height="60" rx="12" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="20" y="36" font-family="Roboto,sans-serif" font-size="24">💰</text>
+  <text x="54" y="35" font-family="Roboto,sans-serif" font-size="14" font-weight="800" fill="#003087">PayPal</text>
+  <text x="54" y="50" font-family="Roboto,sans-serif" font-size="9" fill="#94a3b8">Partner oficial</text>
+</svg>

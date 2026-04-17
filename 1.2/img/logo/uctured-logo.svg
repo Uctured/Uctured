@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 48" fill="none">
+  <rect width="42" height="42" x="3" y="3" rx="12" fill="url(#lg)"/>
+  <text x="24" y="28" font-family="Roboto,sans-serif" font-size="22" font-weight="900" fill="white" text-anchor="middle">U</text>
+  <text x="56" y="32" font-family="Roboto,sans-serif" font-size="26" font-weight="800" fill="#4f46e5">Uctured</text>
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+  </defs>
+</svg>
